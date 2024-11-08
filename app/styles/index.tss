@@ -1,0 +1,82 @@
+".container": {
+    backgroundColor: "#fff"
+}
+
+".tableContainer": {
+    width: Ti.UI.FILL,
+    height: Ti.UI.FILL,
+    top: 0,
+    bottom: "110dp"
+}
+
+".contactsTable": {
+    width: Ti.UI.FILL,
+    height: Ti.UI.FILL,
+    backgroundColor: "#ffffff",
+    separatorColor: "#dee2e6"
+}
+
+".addButton": {
+    height: "50dp",
+    width: Ti.UI.FILL,
+    bottom: "70dp",
+    backgroundColor: "#007bff",
+    color: "#ffffff",
+    textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+    font: {
+        fontSize: 16,
+        fontWeight: "bold"
+    }
+}
+
+".bottomMenu": {
+	layout: "horizontal",
+	justifyContent: "space-between",
+    height: "60dp",
+    width: Ti.UI.FILL,
+    bottom: 10,
+    backgroundColor: "#f8f9fa",
+    borderColor: "#dee2e6",
+    borderWidth: 1,
+}
+
+".menuButton": {
+    height: "50dp",
+    width: "50dp",
+    backgroundColor: "#28a745",
+	borderRadius: 5,
+    color: "#ffffff",
+    textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+    font: {
+        fontSize: 16,
+        fontWeight: "bold"
+    },
+	left: 15
+}
+
+".saveButton": {
+    backgroundColor: "#28a745",
+    color: "#ffffff",
+    height: "45dp",
+    width: "100%",
+    borderRadius: 5,
+    textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+    font: {
+        fontSize: 16,
+        fontWeight: "bold"
+    },
+    marginBottom: "10dp"
+}
+
+".cancelButton": {
+    backgroundColor: "#dc3545",
+    color: "#ffffff",
+    height: "45dp",
+    width: "100%",
+    borderRadius: 5,
+    textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+    font: {
+        fontSize: 16,
+        fontWeight: "bold"
+    }
+}

@@ -1,0 +1,11 @@
+<Alloy>
+    <Window id="contactFormWindow" title="Contact Form" class="container">
+        <View class="formContainer">
+            <TextField id="nameField" hintText="Name" class="formField"/>
+            <TextField id="emailField" hintText="Email" class="formField"/>
+            <TextField id="phoneField" hintText="Phone" class="formField"/>
+            <Button id="saveButton" title="Save" class="formButton"/>
+            <Button id="cancelButton" title="Cancel" class="formButton"/>
+        </View>
+    </Window>
+</Alloy>

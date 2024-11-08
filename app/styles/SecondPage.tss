@@ -1,0 +1,30 @@
+".container": {
+    layout: "vertical",
+    backgroundColor: "#fff",
+	padding: 10
+}
+
+"#descriptionLabel": {
+    color: "#333",
+    font: {
+        fontSize: 16
+    },
+    textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+    top: 60,
+    width: Ti.UI.FILL,
+    height: Ti.UI.SIZE
+}
+
+"#backButton": {
+    height: 50,
+    width: Ti.UI.FILL,
+    backgroundColor: "#007bff",
+    color: "#fff",
+    borderRadius: 5,
+    textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+    font: {
+        fontSize: 16,
+        fontWeight: "bold"
+    },
+    top: 20
+}

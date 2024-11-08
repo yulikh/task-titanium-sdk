@@ -1,0 +1,6 @@
+<Alloy>
+    <Window class="container">
+        <Label id="descriptionLabel"/>
+        <Button id="backButton" title="Go Back" />
+    </Window>
+</Alloy>

@@ -1,0 +1,13 @@
+<Alloy>
+    <Window title="Contacts" class="container">
+        <View class="tableContainer">
+            <TableView id="contactsTable" class="contactsTable"></TableView>
+        </View>
+
+        <Button id="addButton" title="Add Contact" class="addButton" />
+
+        <View id="bottomMenu" class="bottomMenu">
+            <Button id="infoButton" title="Info" class="menuButton" />
+        </View>
+    </Window>
+</Alloy>
